@@ -1,0 +1,13 @@
+#gridContainer {
+    width: 160px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.grid {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
