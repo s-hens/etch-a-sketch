@@ -16,3 +16,7 @@ function gridSize () {
 }
 
 gridSize ();
+
+gridContainer.addEventListener("mouseover", function (e) {
+    e.target.setAttribute("style", `background-color: #000000;`);
+  });
