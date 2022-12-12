@@ -1,6 +1,9 @@
 const gridContainer = document.querySelector("#gridContainer");
 
-var cellSlider = document.getElementById("cellSlider");
+const cellSlider = document.getElementById("cellSlider");
+
+const sliderOutput = document.getElementById("sliderOutput");
+sliderOutput.textContent = `${cellSlider.value} x ${cellSlider.value}`;
 
 function gridSize () {
     //ask for grid width
@@ -24,11 +27,12 @@ gridContainer.addEventListener("mouseover", function (e) {
     e.target.setAttribute("style", `background-color: #000000;`);
   });
 
-
 //when slider is moved, a new grid is generated accordingly
 cellSlider.oninput = function() {
     //delete old grid
-    gridContainer.innerHTML = ``;
+    gridContainer.textContent = ``;
     //create new grid
     gridSize ();
+    //show output
+    sliderOutput.textContent = `${this.value} x ${this.value}`;
 }
