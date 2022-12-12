@@ -24,7 +24,7 @@ gridSize ();
 
 //cells fill black on mouseover
 gridContainer.addEventListener("mouseover", function (e) {
-    e.target.setAttribute("style", `background-color: #000000;`);
+    e.target.setAttribute("style", `background-color: #505050; border: 1px solid #484848;`);
   });
 
 //when slider is moved, a new grid is generated accordingly

@@ -8,5 +8,6 @@
 .grid {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    border: 1px solid #BEBEBE;
+    background-color: #C0C0C0;
 }
