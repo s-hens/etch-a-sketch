@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap">
     <link rel="stylesheet" href="./style.css">
     <script src="./javascript.js" defer></script>
 </head>
 <body>
-    <div id="gridContainer">
-
+    <div id="redBorder">
+        <div id="gridContainer">
+        </div>
+        <div id="dialContainer">
+            <div class="dial"></div>
+            <div class="dial"></div>
+        </div>
     </div>
     <div id="sliderContainer">
         <input type="range" min="8" max="64" value="28" class="slider" id="cellSlider">
