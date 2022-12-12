@@ -30,6 +30,5 @@ cellSlider.oninput = function() {
     //delete old grid
     gridContainer.innerHTML = ``;
     //create new grid
-    sliderOutput.innerHTML = this.value;
     gridSize ();
 }
