@@ -11,8 +11,11 @@ function gridSize () {
     //apply grid width info to css
     timesToPrintAuto = Array(Number(widthOfGrid) + 1).join("auto ");
     gridContainer.setAttribute("style", `grid-template-columns: ${timesToPrintAuto};`);
-    //generate appropriate number of cells
-    areaOfGrid = widthOfGrid ** 2;
+    //generate grid height
+    let heightOfGrid = widthOfGrid * 0.6;
+    //generate appropriate number of cells, rounding to the nearest widthOfGrid
+    areaOfGridInitially = (widthOfGrid * heightOfGrid);
+    areaOfGrid = Math.ceil(areaOfGridInitially/widthOfGrid)*widthOfGrid;
     for (let i = 0; i < areaOfGrid; i++) {
         const gridCell = document.createElement("div");
         gridCell.setAttribute("class", "grid");
