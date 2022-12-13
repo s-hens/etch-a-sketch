@@ -1,4 +1,5 @@
 body{
+    background-color: #FEF9E7;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -9,7 +10,7 @@ body{
     align-items: center;
 }
 
-#redBorder {
+#redBox {
     background-color: #C12F2F;
     padding: 20px 50px;
     width: max-content;
@@ -57,7 +58,6 @@ body{
     overflow: hidden;
     display: grid;
     place-items: stretch;
-    background-color: #C0C0C0;
 }
 
 .grid {
@@ -67,11 +67,76 @@ body{
     background-color: #C0C0C0;
 }
 
-#sliderContainer img {
-    border: 1px solid #000000;
+#controlContainer {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    width: 800px;
+    margin: 50px;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
-.shaking {
+#sliderContainer {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#sliderContainer p {
+    padding: 0;
+    margin: 0;
+}
+
+#sliderContainer img {
+    border: 2px solid #000000;
+    margin-bottom: -7px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 150px;
+    height: 2px;
+    background: #000000;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: #F4D03F;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 10px;
+    height: 15px;
+    border-radius: 50%;
+    background: #F4D03F;
+    border: 2px solid #000000;
+    cursor: pointer;
+  }
+
+button {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #F7DC6F;
+    border: 2px solid #000000;
+    font-size: 24px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #F4D03F;
+    cursor: pointer;
+}
+
+.shakingRedBox {
     animation: tilt-shaking 0.20s 3;
 }
 
@@ -81,4 +146,4 @@ body{
     50% { transform: rotate(0eg); }
     75% { transform: rotate(-5deg); }
     100% { transform: rotate(0deg); }
-  }
+}

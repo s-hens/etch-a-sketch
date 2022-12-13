@@ -2,7 +2,7 @@ const gridContainer = document.querySelector("#gridContainer");
 
 const cellSlider = document.getElementById("cellSlider");
 
-const redBox = document.getElementById("redBorder");
+const redBox = document.getElementById("redBox");
 
 function gridSize () {
     //ask for grid width
@@ -42,9 +42,9 @@ const shakeButton = document.querySelector('#shakeButton');
 shakeButton.addEventListener("click", shake);
 
 function shake() {
-    redBox.classList.remove("shaking");
+    redBox.classList.remove("shakingRedBox");
     redBox.offsetHeight;
-    redBox.classList.add("shaking");
+    redBox.classList.add("shakingRedBox");
     gridContainer.textContent = ``;
     gridSize ();
 }
