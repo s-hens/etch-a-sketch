@@ -2,8 +2,8 @@ const gridContainer = document.querySelector("#gridContainer");
 
 const cellSlider = document.getElementById("cellSlider");
 
-const sliderOutput = document.getElementById("sliderOutput");
-sliderOutput.textContent = `${cellSlider.value} x ${cellSlider.value}`;
+//const sliderOutput = document.getElementById("sliderOutput");
+//sliderOutput.textContent = `${cellSlider.value} x ${cellSlider.value}`;
 
 function gridSize () {
     //ask for grid width
@@ -37,5 +37,5 @@ cellSlider.oninput = function() {
     //create new grid
     gridSize ();
     //show output
-    sliderOutput.textContent = `${this.value} x ${this.value}`;
+    //sliderOutput.textContent = `${this.value} x ${this.value}`;
 }

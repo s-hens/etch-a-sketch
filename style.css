@@ -1,12 +1,24 @@
-#redBorder {
-    background-color: #C12F2F;
-    padding: 20px 50px;
-    width: max-content;
-    border-radius: 10px;
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#redBorder {
+    background-color: #C12F2F;
+    padding: 20px 50px;
+    width: max-content;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px outset #A92929;
 }
 
 .borderDetailContainer {
@@ -24,8 +36,8 @@
 
 .titleText {
     font-family: 'Ephesis', cursive;
-    font-size: 52px;
-    line-height: 52px;
+    font-size: 48px;
+    line-height: 48px;
 }
 
 .dial {
@@ -52,4 +64,8 @@
     padding: 0;
     border: 1px solid #BEBEBE;
     background-color: #C0C0C0;
+}
+
+#sliderContainer img {
+    border: 1px solid #000000;
 }
