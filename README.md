@@ -1,4 +1,4 @@
-# Steph a Sketch
+# Steph-a-Sketch
 
 ### [Live demo](https://s-hens.github.io/etch-a-sketch/)
 
