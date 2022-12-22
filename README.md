@@ -1,12 +1,14 @@
-# etch-a-sketch
+# Steph a Sketch
 
-Live: https://s-hens.github.io/etch-a-sketch/
+### [Live demo](https://s-hens.github.io/etch-a-sketch/)
 
-Summary: This is a JavaScript-based web game that recreates the classic Etch-a-Sketch toy.
+## Summary
 
-Done as part of The Odin Project (https://www.theodinproject.com/) foundations curriculum.
+This is a JavaScript-based web game that recreates the classic Etch-a-Sketch toy.
 
-Creating this game, I learned about:
+Done as part of [The Odin Project](https://www.theodinproject.com/) foundations curriculum.
+
+## I learned about...
 
 - JavaScript maths
 - DOM manipulation
