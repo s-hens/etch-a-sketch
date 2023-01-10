@@ -4,9 +4,7 @@
 
 ## Summary
 
-This is a JavaScript-based web game that recreates the classic Etch-a-Sketch toy.
-
-Done as part of [The Odin Project](https://www.theodinproject.com/) foundations curriculum.
+This is a JavaScript-based web game that recreates the classic Etch-a-Sketch toy. Done as part of [The Odin Project](https://www.theodinproject.com/) foundations curriculum.
 
 ## I learned about...
 
